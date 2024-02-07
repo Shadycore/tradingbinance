@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+python-binance = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+pycodestyle = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.6"
